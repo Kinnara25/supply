@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js:">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+  tfoot{
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    position:absolute;
+    left: 0px;
+    bottom: 5px;
+    flex-wrap: wrap;
+    width:100%; 
+ 
+    
+}
+
+footer{
+    width: 90%;
+    height: 50px;
+    line-height: 10px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 10pt;
+    padding-bottom:10px;
+   
+}
+ 
+  </style>
+  <title></title>
+</head>
+<body>
+  
+    <div class="container-fluid" style= margin-top:10px>
+      <div class="row-14">
+        <div class="col-14">
+          <div class="card" >
+            <div class="card-body ">
+            <h6><i>PT.NPR Manufacturing Indonesia</i></h6>
+            <h2><div class="text-center">SUPPLY LIST</div></h2>
+            </div>
+            <thead>
+            <div class="container-fluid">
+              <div class="row-6">
+                <div class="float-left col-md-2" >
+                    <th><b>Creator:</b></th>
+                    <td><label for name="creator" id="creator"><b>User</b></label></td>      
+                </div>
+                </div>
+                 <div class="text-right col-md-12" >
+                    <div class="row-10">
+                     <th><b>Export Date:</b></th>
+                      <td><label for name="date" id="date"><b>07/01/2022</b></label></td>      
+                    </div>
+                   </div>
+               </thead>
+            </div>
+            </div>
+          </div>
+        
+    <table class="text-center table table-bordered" >
+      <thead>
+        <div class="container-fluid" >
+            <div class="col-12">
+              <tr>
+                <th scope="col" style="width:17rem; font-size:12pt;" name="item code" id="item_code"> ITEM CODE </th>
+                <th scope="col" style="width:14rem;" name="order no" id="order_no"> ORDER NO  </th>
+                <th scope="col" style="width:5rem;" name="jyb" id="jyb"> JYB </th>
+                <th scope="col" style="width:14rem;" name="lot no" id="lot_no"> LOT NO </th>
+                <th scope="col" style="width:12rem;" name="acp date" id="acp_date"> ACP DATE </th>
+                <th scope="col" style="width:5rem;"  name="housou" id="housou"> HOUSOU (PACKAGE)</th>
+                <th scope="col" style="width:5rem;" name="qty" id="qty"> QTY (PCS) </th>
+                <th scope="col" style="width:14rem;"  name="unit price" id="unit_price"> UNIT PRICE </th>
+                <th scope="col" style="width:14rem;"name="total price" id="total_price"> TOTAL PRICE </th>
+                <th scope="col" style="width:7rem;" name="pallet" id="pallet"> PALLET </th>
+                <th scope="col" style="width:10rem;" name="case no" id="case_no"> CASE NO </th>
+                <th scope="col" style="width:10rem;"  name="remark" id="remark"> REMARK </th>
+              </tr>
+            </div>
+        </div>
+      </thead>
+    </div>
+    </div>
+
+  <tbody>
+      <tr>
+        <td><input type="hidden" name="item code" id="item_code" size="12"><b>A1KD119ALAC-0</b></td>
+        <td><input type="hidden" name="order no" id="order_no" size="12">4684339</td>
+        <td><input type="hidden" name="jyb" id="jyb" size="12">P</td>
+        <td><input type="hidden" name="lot no" id="lot_no" size="12"><b>AL03120170C</b></td>
+        <td><input type="hidden" name="acp date" id="acp_date" size="12">A1218</td>
+        <td><input type="hidden" name="housou" id="housou" size="12">1</td>
+        <td><input type="hidden" name="qty" id="qty"><b>100</b></td>
+        <td><input type="hidden" name="unit price" id="unit_price" size="12">1.2008</td>
+        <td><input type="hidden" name="total price" id="total_price" size="12">120.0800</td>
+        <td><input type="hidden" name="pallet" id="pallet" size="12">Pallet-1</td>
+        <td><input type="hidden" name="case no" id="case_no" size="12">AY147</td>
+        <td><input type="hidden" name="remark" id="remark" size="12"> TOKUZAI</td>
+      </tr>
+  </tbody>
+
+  <tfoot class="container-fluid" >
+    <div class="row-12">
+    <tr>
+      <td style="width:50rem;" name="grand total" id="grand_total" rowspan="2" colspan="5" size="18"><b>GRAND TOTAL</b></td>
+      <td style="width:7rem;" name="housou" id="housou" colspan="1" size="12">Housou </td>
+      <td style="width:5rem;"  name="qty" id="qty" colspan="1" size="12">Qty</td>
+      <td style="width:9rem;" name="unit price" id="unit_price" colspan="1" size="12">Unit Price</td>
+      <td style="width:9rem;" name="total price" id="total_price" colspan="1" size="12">Total Price</th>
+      <td style="width:7rem;" name="weight" id="weight" colspan="1" size="12">Weight (KG)</th>
+      <td style="width:17rem;" name="blank" id="blank" rowspan="2" colspan="2"></th>
+    </tr> 
+
+    <tr>
+      <td><input type="hidden" name="housou" id="housou" size="12"><b>11</b></td> 
+      <td><input type="hidden" name="qty" id="qty" size="12"><b>1.091</b></td>
+      <td><input type="hidden" name="unit price" id="unit_price"></td>
+      <td><input type="hidden" name="total price" id="total_price" size="12"><b>1.310.0728</b></td>
+      <td><input type="hidden" name="weight" id="weight" size="12"><b>30.2</b></td>
+    </tr>
+    </div>
+    </div>
+  </tfoot>
+
+  <footer>
+    <div class="float-left  ">
+      <div><label for name="no form" id="no_form">No.Form : FM/PC/011/15C</div>
+      <div><label for name="no rev" id="no_rev">No.Rev  : 00</div>
+    </div>
+    <div class="text-right" style="width:90rem;">
+      <div><label for name="npr" id="npr_departure"><b>NPR-JAN AIR</b></label></div>  
+    </div>
+  </footer>
+
+</table> 
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>  
+</div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.1.slim.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
